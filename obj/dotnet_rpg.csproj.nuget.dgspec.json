@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vivek\\dotnet_rpg\\dotnet_rpg.csproj": {}
+    "C:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vivek\\dotnet_rpg\\dotnet_rpg.csproj": {
+    "C:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vivek\\dotnet_rpg\\dotnet_rpg.csproj",
+        "projectUniqueName": "C:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj",
         "projectName": "dotnet_rpg",
-        "projectPath": "C:\\Users\\vivek\\dotnet_rpg\\dotnet_rpg.csproj",
+        "projectPath": "C:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj",
         "packagesPath": "C:\\Users\\vivek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vivek\\dotnet_rpg\\obj\\",
+        "outputPath": "C:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,6 +62,22 @@
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.7.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUi": {
+              "target": "Package",
+              "version": "[5.5.1, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

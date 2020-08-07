@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+
 using dotnet_rpg.Data;
 using dotnet_rpg.Service.CharacterService;
 using dotnet_rpg.Service.CharacterSkillService;
@@ -22,6 +23,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 
 namespace dotnet_rpg
 {
@@ -51,6 +53,20 @@ namespace dotnet_rpg
             });
             services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));//dotnet ef migrations add InitialCreate    && dotnet ef database update
             services.AddControllers();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Book Store API",
+                    Version = "v1",
+                    Description = "This is the game where the player fights"
+                });
+
+
+
+            });
+
+
             services.AddAutoMapper(typeof(Startup));
             services.AddScoped<ICharacterService, CharacterService>();
             services.AddScoped<IAuthRepository, AuthRepository>();
@@ -67,6 +83,20 @@ namespace dotnet_rpg
             {
                 app.UseDeveloperExceptionPage();
             }
+            var swaggerEndPoint = Configuration["SwaggerEndPoint"];
+            var swaggerUiEndPoint = Configuration["SwaggerUIEndPoint"];
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint(swaggerEndPoint, "RPG game");
+                c.RoutePrefix = swaggerUiEndPoint;
+            });
+            //                  app.UseSwaggerUI(c =>
+            //   {
+            //       string swaggerJsonBasePath = string.IsNullOrWhiteSpace(c.RoutePrefix) ? "." : "..";
+            //       c.SwaggerEndpoint($"{swaggerJsonBasePath}/swagger/v1/swagger.json", "My API");
+            //   });
+
 
             app.UseHttpsRedirection();
 
@@ -74,6 +104,7 @@ namespace dotnet_rpg
             app.UseAuthentication();
 
             app.UseAuthorization();
+
 
             app.UseEndpoints(endpoints =>
             {
