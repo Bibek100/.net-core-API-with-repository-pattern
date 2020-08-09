@@ -8,7 +8,7 @@ namespace dotnet_rpg.Controllers
 {
     [Authorize]
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class CharacterSkillController : ControllerBase
     {
         private readonly ICharacterSkillService _characterSkillService;

@@ -13,7 +13,7 @@ namespace dotnet_rpg.Controllers
     //[AllowAnonymous]
     [Authorize]
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class CharacterController : ControllerBase
     {
 

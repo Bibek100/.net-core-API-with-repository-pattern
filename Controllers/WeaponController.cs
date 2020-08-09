@@ -9,7 +9,7 @@ namespace dotnet_rpg.Controllers
 {
     [Authorize]
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class WeaponController : ControllerBase
     {
 

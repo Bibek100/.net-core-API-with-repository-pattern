@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj": {}
+    "c:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj": {
+    "c:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj",
+        "projectUniqueName": "c:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj",
         "projectName": "dotnet_rpg",
-        "projectPath": "C:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj",
+        "projectPath": "c:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\dotnet_rpg.csproj",
         "packagesPath": "C:\\Users\\vivek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\obj\\",
+        "outputPath": "c:\\Users\\vivek\\My AllProJect\\Dot Net core Game with API\\dotnet_rpg\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
