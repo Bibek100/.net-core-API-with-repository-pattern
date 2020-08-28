@@ -127,3 +127,10 @@ C:\Users\vivek\My AllProJect\Dot Net core Game with API\dotnet_rpg\bin\Debug\net
 C:\Users\vivek\My AllProJect\Dot Net core Game with API\dotnet_rpg\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\vivek\My AllProJect\Dot Net core Game with API\dotnet_rpg\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\vivek\My AllProJect\Dot Net core Game with API\dotnet_rpg\obj\Debug\netcoreapp3.1\dotnet_rpg.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vivek\My AllProJect\Dot Net core Game with API\dotnet_rpg\bin\Debug\netcoreapp3.1\nlog.config
+C:\Users\vivek\My AllProJect\Dot Net core Game with API\dotnet_rpg\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\vivek\My AllProJect\Dot Net core Game with API\dotnet_rpg\obj\Debug\netcoreapp3.1\dotnet_rpg.csproj.CoreCompileInputs.cache
+C:\Users\vivek\My AllProJect\Dot Net core Game with API\dotnet_rpg\obj\Debug\netcoreapp3.1\dotnet_rpg.genruntimeconfig.cache
+C:\Users\vivek\My AllProJect\Dot Net core Game with API\dotnet_rpg\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\vivek\My AllProJect\Dot Net core Game with API\dotnet_rpg\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\vivek\My AllProJect\Dot Net core Game with API\dotnet_rpg\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
